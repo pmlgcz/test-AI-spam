@@ -1,0 +1,3 @@
+# Cria o vetorizador de contagem e o vetoriza o conjunto de dados
+vectorizer = CountVectorizer()
+X_vectorized = vectorizer.fit_transform(X)

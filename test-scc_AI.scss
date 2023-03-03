@@ -1,0 +1,7 @@
+# Treina o modelo Naive Bayes
+model = MultinomialNB()
+model.fit(X_train, y_train)
+
+# Avalia o modelo no conjunto de teste
+accuracy = model.score(X_test, y_test)
+print("Acurácia do modelo: {:.2f}%".format(accuracy * 100))
